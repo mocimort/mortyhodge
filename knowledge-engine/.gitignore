@@ -1,0 +1,14 @@
+# Secrets and data must never be committed
+.env
+data/
+*.db
+*.db-*
+raw/
+exports/
+poc-report.md
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
